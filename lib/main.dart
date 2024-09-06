@@ -615,7 +615,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ElevatedButton(onPressed: (){
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
-                        content: const Text('congratulatin'),
+                        content: const Text('Congratulation'),
                       ),
                     );
                   }, child: Text("CHECK OUT",style: TextStyle(
